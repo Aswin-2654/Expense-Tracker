@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.app {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.app h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.pagination {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+}
+
+
+.pagination button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.sort-dropdown {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  font-size: 14px;
+}
+
+.sort-dropdown:hover{
+  background-color: rgba(154, 150, 150, 0.203);
+}
+
+
+
+
+/* .app {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+} */
